@@ -1,34 +1,29 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  position: relative;
-
+  /* Margin top by navbar height */
+  margin-top: 60px;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background: #252525;
+  /* For Scrollspy */
+  position: relative;
+
+  background-color: #252525;
 }
 
-nav, footer {
-  background: #252525;
-}
-
+/* Menu */
 .navbar {
-  min-height: 100px;
+  text-transform: uppercase;
+  background-color: #252525;
 }
 
-h2 {
-  padding-top: 100px;
+.navbar a.nav-link.active {
+  border-bottom: 3px solid white;
 }
 
-div{
-padding-bottom
+.navbar .nav-item {
+  line-height: 0.8;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Footer */
 .footer {
   position: fixed;
   bottom: 0;
@@ -37,27 +32,23 @@ padding-bottom
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+  background-color: #252525;
 }
 
-.active {
-  border-bottom: 4px solid white;
+.padding
+{
+  padding-top: 60px;
 }
 
-.nav-item {
-  line-height: 0.8;
-}
-
-.main {
-
-
-min-height: 800px;
-
+/* Background for Home */
+.bg-home {
+  /* min-height: 500px; */
   background-image: url(../images/main.png);
   background-repeat: no-repeat;
-   background-position: 70% 80px;  
-   background-attachment: fixed;
-/*overflow-x: visible;
-overflow: visible; */
-/*  background-origin: padding-box; */
-/* background-size: cover; */
+  background-position: 70% 80px;  
+  background-attachment: fixed;
+  /* overflow-x: visible; */
+  /* overflow: visible; */
+  /*  background-origin: padding-box; */
+  /* background-size: cover; */
 }
