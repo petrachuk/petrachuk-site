@@ -52,3 +52,15 @@ body {
   /*  background-origin: padding-box; */
   /* background-size: cover; */
 }
+
+.bg-about {
+  /* min-height: 500px; */
+  background-image: url(../images/fractal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* overflow-x: visible; */
+  /* overflow: visible; */
+  /*  background-origin: padding-box; */
+  /* background-size: cover; */
+}
