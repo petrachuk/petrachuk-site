@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+Host: https://petrachuk.com
+
+Sitemap: https://petrachuk.com/sitemap.xml
