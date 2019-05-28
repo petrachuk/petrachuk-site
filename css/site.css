@@ -15,12 +15,22 @@ body {
   background-color: #252525;
 }
 
-.navbar a.nav-link.active {
-  border-bottom: 3px solid white;
+
+@media screen and (max-width: 1080px) {
+  .navbar a.nav-link.active {
+    border-bottom: 3px solid white;
+    font-weight: normal;
+  }
+  .navbar .nav-item { line-height: 0.8; }
 }
 
-.navbar .nav-item {
-  line-height: 0.8;
+
+@media screen and (max-width: 575px) {
+  .navbar a.nav-link.active {
+    border: none; 
+    font-weight: bold;
+  }
+  .navbar .nav-item { line-height: 2; }
 }
 
 /* Footer */
@@ -43,7 +53,7 @@ body {
 /* Background for Home */
 .bg-home {
   /* min-height: 500px; */
-  background-image: url(../images/main.png);
+  background-image: url(../images/main.pn_);
   background-repeat: no-repeat;
   background-position: 70% 80px;  
   background-attachment: fixed;
